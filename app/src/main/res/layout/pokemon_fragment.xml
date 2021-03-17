@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".ActorDetailFragment">
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokémon Name"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/pokemonNumber"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="001"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:translationY="57sp" />
+
+    <TextView
+        android:id="@+id/region"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp"
+        android:translationY="90sp"
+        tools:text="0" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Grass"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:translationY="150sp" />
+
+    <TextView
+        android:id="@+id/weakness"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Fire"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:translationY="180sp" />
+
+    <ImageView
+        android:id="@+id/pokemonImage"
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:translationY="@android:dimen/thumbnail_height"/>
+</FrameLayout>

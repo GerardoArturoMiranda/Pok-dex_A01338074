@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#732525"
+    android:foregroundTint="#FFF6F6"
+    android:padding="16dp"
+    android:translationY="60sp"
+    tools:context=".MainMenu">
+
+
+    <TextView
+        android:id="@+id/mediaPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-thin"
+        android:text="Main Menu"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:translationY="60sp" />
+
+    <Button
+        android:id="@+id/goToPokédex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="@color/design_default_color_error"
+        android:drawableTint="#DDC4C4"
+        android:foreground="@drawable/pokeball"
+        android:text="Button"
+        android:translationY="@android:dimen/thumbnail_height" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="Go to Pokédex"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:translationX="@android:dimen/notification_large_icon_width"
+        android:translationY="@android:dimen/thumbnail_height" />
+
+</RelativeLayout>
